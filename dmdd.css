@@ -2,4 +2,10 @@ body {
     background-color: #00cc99;
 }
 
+p {
+  display: block;
+  font-family: Verdana, Geneva, sans-serif; 
+    font-size: 12px;
+}
+
 <hr style="height:2px;border-width:0;color:gray;background-color:gray">
