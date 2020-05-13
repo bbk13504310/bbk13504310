@@ -12,7 +12,7 @@ h1, h2 {
   display: block;
   font-family: Verdana, Geneva, sans-serif; 
     font-size: 15px;
-    font-style: oblique;
+    font-style: bold;
 }
 
 <hr style="height:2px;border-width:0;color:gray;background-color:gray">
