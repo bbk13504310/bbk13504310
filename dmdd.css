@@ -8,7 +8,7 @@ p {
     font-size: 12px;
 }
 
-h1, h2 {
+h1, h2, li {
   display: block;
   font-family: Verdana, Geneva, sans-serif; 
     font-size: 15px;
@@ -16,3 +16,4 @@ h1, h2 {
 }
 
 <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+
