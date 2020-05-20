@@ -1,8 +1,13 @@
+body {
+    background-color: #00cc99;
+    
+    }
+
 #header ul {
 
  list-style: none;
     
-font-family: Verdana, Geneva, sans-serif;
+font-family: 'Jost', sans-serif;
 
  margin: 10px;
 
@@ -20,11 +25,11 @@ font-family: Verdana, Geneva, sans-serif;
 
  display: block;
 
- font-size: 17px;
+ font-size: 12px;
 
  font-weight: bold;
 
- font-family: Verdana, Geneva, sans-serif;
+ font-family: 'Jost', sans-serif;
 
  margin-bottom: -1px;
 
@@ -33,3 +38,10 @@ font-family: Verdana, Geneva, sans-serif;
  text-decoration: none;
 
 }
+
+p {
+  display: block;
+  font-family: 'Jost', sans-serif; 
+    font-size: 12px;
+    
+    }
