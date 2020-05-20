@@ -5,13 +5,13 @@ body {
 p {
   display: block;
   font-family: 'Jost',sans-serif; 
-    font-size: 12px;
+    font-size: 14px;
 }
 
 h1, h2, li {
   display: block;
   font-family: 'Jost',sans-serif; 
-    font-size: 12px;
+    font-size: 15px;
     font-style: bold;
 }
 
