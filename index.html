@@ -13,6 +13,26 @@
 
 <body>
     
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <a href="#home" class="active">Home</a>
+  <!-- Navigation links (hidden by default) -->
+  <div id="myLinks">
+    <a href="https://frinkiac.com">Frinkiac</a>
+        <a href="https://legendsoflocalization.com">Legends of Localization</a>
+        <a href="https://media.giphy.com/media/3oriNKQe0D6uQVjcIM/giphy.gif">Those Crafty Robots</a>
+        <a href="http://www.guidetojapanese.org/learn/">Let's Learn Japanese</a>
+        <a href="http://yokai.com">Spooky Yokai</a>
+  </div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
 
     <hr>
     
@@ -32,27 +52,34 @@
     
     <p>I'm really excited to study with everyone during this course and look forward to using what we'll learn together to create something neat for the final assignment that will probably be related to anime, games or the news.</p>
     
-    <p>I guess I'll contrast this low quality introduction with some <b>high quality links</b>.
+    <p>I guess I'll contrast this low quality introduction with some <b>high quality audio</b>.
     </p>
     
 
+
+
+<!--    edit the links and the URLs below for your favourite sites 
     <h2>The content you desire:</h2>
-
-    <!--edit the links and the URLs below for your favourite sites -->
-
- <div id="header">
     <ul>
      <li><a href="https://frinkiac.com">Frinkiac</a></li>
         <li><a href="https://legendsoflocalization.com">Legends of Localization</a></li>
         <li><a href="https://media.giphy.com/media/3oriNKQe0D6uQVjcIM/giphy.gif">Those Crafty Robots</a></li>
         <li><a href="http://www.guidetojapanese.org/learn/">Let's Learn Japanese</a></li>
         <li><a href="http://yokai.com">Spooky Yokai</a></li>
-    </ul>
-    </div>
+    </ul>-->
     
     <!-- The next line will add YouTube Video embed to your page -->
 <iframe width="470" height="315" src="https://www.youtube.com/embed/78mYkbfsXRM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     
+    <script>    /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}</script>
     
 </body>
     

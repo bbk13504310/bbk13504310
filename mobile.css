@@ -53,8 +53,48 @@ p {
     
     }
 
-/* Add a black background color to the top navigation */
+/* Style the navigation menu */
 .topnav {
-  background-color: #b3ffec;
   overflow: hidden;
+  background-color: #03a57c;
+  position: relative;
+  font-family: 'Jost',sans-serif; 
+    font-size: 13px;
+    font-style: bold;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: ;
+  display: block;
+  position: absolute;
+  right: 5;
+  top: 3;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: ;
+  color: black;
+    font-style: bold;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #03a57c;
+  color: white;
 }
