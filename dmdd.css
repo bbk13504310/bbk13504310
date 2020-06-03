@@ -3,16 +3,27 @@ body {
 }
 
 p {
-  display: block;
+    display: inline-block;
+    max-width: 80%;
   font-family: 'Jost',sans-serif; 
     font-size: 16px;
 }
 
-h1, h2, li {
+h1, li {
+  display: block;
+  font-family: 'Jost',sans-serif; 
+    font-size: 20px;
+    font-style: bold;
+    letter-spacing: 10px;
+    
+    }
+    
+    h2 {
   display: block;
   font-family: 'Jost',sans-serif; 
     font-size: 18px;
     font-style: bold;
+
 
 }
 
