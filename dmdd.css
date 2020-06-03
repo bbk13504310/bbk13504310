@@ -27,6 +27,13 @@ h1, li {
 
 }
 
+a {
+  display: block;
+  font-family: 'Jost',sans-serif; 
+    font-style: bold;
+    
+    }
+
 <hr style="height:2px;border-width:0;color:gray;background-color:gray">
 
 /* Style the navigation menu */

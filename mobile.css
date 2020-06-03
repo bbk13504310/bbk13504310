@@ -15,7 +15,7 @@ font-family: 'Jost', sans-serif;
 
 }
 
-#header ul li a {
+#header ul li {
 
  background-color: #b3ffec;
 
@@ -38,6 +38,13 @@ font-family: 'Jost', sans-serif;
  text-decoration: none;
 
 }
+
+a {
+  display: block;
+  font-family: 'Jost',sans-serif; 
+    font-style: bold;
+    
+    }
 
 h1 {
   display: block;
@@ -102,7 +109,7 @@ p {
 .topnav a:hover {
   background-color: ;
   color: black;
-font-weight: bold;
+font-style: oblique;
 }
 
 /* Style the active link (or home/logo) */
