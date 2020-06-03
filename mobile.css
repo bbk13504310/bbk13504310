@@ -76,8 +76,7 @@ p {
   font-size: 17px;
   display: block;
      font-family: 'Jost',sans-serif; 
-    font-size: 13px;
-    font-style: bold;
+
 }
 
 /* Style the hamburger menu */
@@ -93,7 +92,7 @@ p {
 .topnav a:hover {
   background-color: ;
   color: black;
-    font-style: bold;
+font-weight: bold;
 }
 
 /* Style the active link (or home/logo) */

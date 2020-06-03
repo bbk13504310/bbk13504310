@@ -42,7 +42,7 @@ font-family: 'Jost',sans-serif;
   display: block;
 font-family: 'Jost',sans-serif; 
 font-size: 17px;
-font-style: bold;
+
 
 }
 
@@ -60,6 +60,7 @@ font-style: bold;
 .topnav a:hover {
   background-color: ;
   color: black;
+font-weight: bold;
 }
 
 /* Style the active link (or home/logo) */
